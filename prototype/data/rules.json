@@ -1,0 +1,70 @@
+{
+  "rule_version": "IN-TDS-2026-27-v1",
+  "jurisdiction": "India, resident payees only",
+  "valid_from": "2026-04-01",
+  "source_note": "Rates and thresholds as amended by the Finance Act 2025 (in force from 1 April 2025). Legacy section numbers are from the Income-tax Act 1961. From 1 April 2026 these provisions sit in the TDS table of the Income-tax Act 2025; the new-Act references below must be confirmed by the tax owner, and so must any change made by the Finance Act 2026. Nothing in this file is decided by the model.",
+  "approved_by": "UNSIGNED - prototype only",
+  "no_pan_rule": "Section 206AA: if the payee has not furnished a PAN, deduct at the higher of the normal rate, twice the normal rate, or 20%.",
+  "natures": {
+    "contract_work": {
+      "label": "Contract work (labour, repairs, housekeeping, security, advertising, catering, carriage of passengers)",
+      "section": "194C",
+      "act_2025_ref": "s.393 table - payment to contractor (verify)",
+      "rate": {"individual_huf": 0.01, "others": 0.02},
+      "threshold": {"type": "single_or_aggregate", "single": 30000, "aggregate": 100000}
+    },
+    "goods_transport": {
+      "label": "Carriage of goods by road (freight to a transporter)",
+      "section": "194C",
+      "act_2025_ref": "s.393 table - payment to contractor (verify)",
+      "rate": {"individual_huf": 0.01, "others": 0.02},
+      "threshold": {"type": "single_or_aggregate", "single": 30000, "aggregate": 100000},
+      "transporter_exemption": true
+    },
+    "professional_service": {
+      "label": "Professional services (legal, medical, engineering, architecture, accountancy, technical consultancy, interior decoration)",
+      "section": "194J(b)",
+      "act_2025_ref": "s.393 table - fees for professional services (verify)",
+      "rate": {"all": 0.10},
+      "threshold": {"type": "aggregate", "aggregate": 50000}
+    },
+    "technical_service": {
+      "label": "Fees for technical services (managerial, technical or consultancy services that are not a 'profession')",
+      "section": "194J(a)",
+      "act_2025_ref": "s.393 table - fees for technical services (verify)",
+      "rate": {"all": 0.02},
+      "threshold": {"type": "aggregate", "aggregate": 50000}
+    },
+    "rent_land_building": {
+      "label": "Rent for land, building, furniture or fittings (includes hotel rooms taken on a regular basis)",
+      "section": "194I(b)",
+      "act_2025_ref": "s.393 table - rent (verify)",
+      "rate": {"all": 0.10},
+      "threshold": {"type": "per_month", "per_month": 50000}
+    },
+    "rent_plant_machinery": {
+      "label": "Rent / hire of plant, machinery or equipment",
+      "section": "194I(a)",
+      "act_2025_ref": "s.393 table - rent (verify)",
+      "rate": {"all": 0.02},
+      "threshold": {"type": "per_month", "per_month": 50000}
+    },
+    "commission_brokerage": {
+      "label": "Commission or brokerage (not insurance commission)",
+      "section": "194H",
+      "act_2025_ref": "s.393 table - commission (verify)",
+      "rate": {"all": 0.02},
+      "threshold": {"type": "aggregate", "aggregate": 20000}
+    },
+    "goods_purchase": {
+      "label": "Purchase of goods (no service element)",
+      "section": null,
+      "note": "Not covered by 194C/194J/194I/194H. Section 194Q (purchase of goods above Rs 50 lakh by large buyers) is out of scope of this prototype."
+    },
+    "unclear": {
+      "label": "Cannot tell from the invoice",
+      "section": null,
+      "note": "Always goes to a human."
+    }
+  }
+}

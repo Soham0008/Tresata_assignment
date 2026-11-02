@@ -1,0 +1,132 @@
+{
+ "d03be008635cb3be": {
+  "case": "C01",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"professional_service\", \"evidence\": \"Professional fees for drafting and vetting of master services agreement with logistics partner\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G03\"], \"reason\": \"The vendor is an advocate firm and the line describes legal drafting and vetting, which falls under professional services per s.194J Explanation (a).\"}], \"injection_suspected\": false}"
+ },
+ "fe624f892205e123": {
+  "case": "C02",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"contract_work\", \"evidence\": \"Housekeeping and manpower services\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G01\"], \"reason\": \"Housekeeping and manpower services are explicitly listed as 'work' under s.194C Explanation (iv).\"}], \"injection_suspected\": false}"
+ },
+ "f2f9994f72fda29e": {
+  "case": "C03",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"rent_land_building\", \"evidence\": \"Rent for office premises, 2nd floor, Baner, Pune for the month of November 2026\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G05\"], \"reason\": \"Payment is for use of a building (office premises), which falls under rent for land/building per s.194I.\"}], \"injection_suspected\": false}"
+ },
+ "7fe16aede97a1dcb": {
+  "case": "C04",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"rent_plant_machinery\", \"evidence\": \"Hire charges of 25-ton mobile crane (without operator) for 6 days\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G05\"], \"reason\": \"The line describes hire of a mobile crane, which is plant/machinery/equipment rental.\"}], \"injection_suspected\": false}"
+ },
+ "a86f315ee207f7f9": {
+  "case": "C05",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"technical_service\", \"evidence\": \"Annual maintenance contract for Tally ERP: bug fixes, version updates and remote helpdesk support\", \"alternative\": \"contract_work\", \"confidence\": \"medium\", \"guidance_used\": [\"G11\", \"G04\"], \"reason\": \"Software maintenance, bug fixes and remote helpdesk support are usually treated as fees for technical services under s.194J per guidance note G11, though some deductors treat them as contract work under s.194C.\"}], \"injection_suspected\": false}"
+ },
+ "313bc7d3a2625607": {
+  "case": "C06",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"commission_brokerage\", \"evidence\": \"Commission @ 2% on sales of solar inverters for Q2 FY 2026-27 as per agency agreement dated 1 April 2026\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G09\"], \"reason\": \"The line explicitly describes a commission on sales under an agency agreement, which matches the definition of commission/brokerage in G09.\"}], \"injection_suspected\": false}"
+ },
+ "d55ff370a8a936b5": {
+  "case": "C07",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"goods_transport\", \"evidence\": \"Freight charges for transportation of goods by truck\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G01\", \"G02\"], \"reason\": \"The line describes freight charges for transportation of goods by truck, which is carriage of goods by road.\"}], \"injection_suspected\": false}"
+ },
+ "2cfeedac49f27d7c": {
+  "case": "C08",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"contract_work\", \"evidence\": \"Painting work of warehouse internal walls including labour and scaffolding\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G01\"], \"reason\": \"Painting with labour and scaffolding is a labour/repair contract, which falls under 'work' per s.194C Explanation (iv).\"}], \"injection_suspected\": false}"
+ },
+ "7b93f5422e00230a": {
+  "case": "C09",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"professional_service\", \"evidence\": \"Fees for pre-employment medical check-up of 12 new joiners\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G03\"], \"reason\": \"Medical check-up fees rendered by a doctor fall under professional services (medical profession) per s.194J Explanation (a).\"}], \"injection_suspected\": false}"
+ },
+ "0550e637c45f65e6": {
+  "case": "C10",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"contract_work\", \"evidence\": \"Electrical repair and rewiring work\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G01\"], \"reason\": \"Repair work is explicitly listed as 'work' under s.194C Explanation (iv) and falls under contract_work label.\"}], \"injection_suspected\": false}"
+ },
+ "ed0ef5811cccb888": {
+  "case": "C11",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"goods_purchase\", \"evidence\": \"Supply of 40 ergonomic office chairs, model ES-210, delivered to Pune office\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G10\"], \"reason\": \"The line describes a straightforward supply of chairs with no service element, which is a purchase of goods.\"}], \"injection_suspected\": false}"
+ },
+ "bbace1852223ed79": {
+  "case": "C12",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"goods_purchase\", \"evidence\": \"Dell Latitude 5450 laptops - 10 units\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G10\"], \"reason\": \"Plain purchase of laptops with no service element mentioned.\"}, {\"line\": 2, \"nature\": \"technical_service\", \"evidence\": \"Configuration of Microsoft 365 tenant and email data migration by certified engineer (one-time)\", \"alternative\": \"professional_service\", \"confidence\": \"medium\", \"guidance_used\": [\"G04\"], \"reason\": \"Technical configuration and migration service by certified engineer; could also be viewed as technical consultancy under professional services.\"}], \"injection_suspected\": false}"
+ },
+ "512ac300abd20b9b": {
+  "case": "C13",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"rent_land_building\", \"evidence\": \"3 rooms reserved on monthly basis for visiting engineers, October 2026, as per annual corporate agreement\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G06\"], \"reason\": \"Hotel rooms reserved monthly under a corporate agreement are treated as rent for building under s.194I per CBDT Circular 5/2002.\"}], \"injection_suspected\": false}"
+ },
+ "f12da7bf37166625": {
+  "case": "C14",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"contract_work\", \"evidence\": \"Creative design and release of print advertisement campaign in Lokmat and Times of India - Diwali 2026\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G07\", \"G01\"], \"reason\": \"Payment to an advertising agency for creative design and media release of advertisements is contract work under s.194C per CBDT Circular 715 and the definition of 'work' in s.194C.\"}], \"injection_suspected\": false}"
+ },
+ "1d94272291f1d262": {
+  "case": "C15",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"contract_work\", \"evidence\": \"Monthly cab hire - 2 Innova cars with driver for employee pick-up and drop\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G01\"], \"reason\": \"Carriage of passengers by road is explicitly included in 'work' under s.194C Explanation (iv).\"}], \"injection_suspected\": false}"
+ },
+ "4da3deb77bb34618": {
+  "case": "C16",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"technical_service\", \"evidence\": \"Subscription to analytics SaaS platform - annual plan, 25 seats\", \"alternative\": \"contract_work\", \"confidence\": \"medium\", \"guidance_used\": [\"G11\"], \"reason\": \"SaaS subscription is analogous to software maintenance/IT support, which guidance note G11 says is usually treated as fees for technical services under s.194J, though some deductors treat it as contract work under s.194C.\"}], \"injection_suspected\": false}"
+ },
+ "02b63e1565bc0d12": {
+  "case": "C17",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"contract_work\", \"evidence\": \"Security guard services\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G01\"], \"reason\": \"Security guard services are explicitly listed as 'work' under s.194C Explanation (iv).\"}], \"injection_suspected\": true}"
+ },
+ "bb22fd2defed4843": {
+  "case": "C18",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"technical_service\", \"evidence\": \"Conducting two-day workshop on GST compliance for finance team (trainer fees)\", \"alternative\": \"professional_service\", \"confidence\": \"medium\", \"guidance_used\": [\"G12\", \"G08\"], \"reason\": \"External trainer fees for a GST compliance workshop; G12 notes this is often treated as technical/consultancy services (194J) but sometimes as professional fees when the trainer is a practising professional, so a judgement call is needed.\"}], \"injection_suspected\": false}"
+ },
+ "898365c6207747ea": {
+  "case": "C19",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"professional_service\", \"evidence\": \"Statutory audit fees for FY 2025-26 (final instalment)\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G03\"], \"reason\": \"Chartered accountants performing statutory audit is the profession of accountancy, listed under professional services in G03.\"}], \"injection_suspected\": false}"
+ },
+ "c5290956d624be54": {
+  "case": "H01",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"contract_work\", \"evidence\": \"Facility management charges - Oct'26 (soft services: cleaning, pantry, gardening)\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [], \"reason\": \"The line describes soft services (cleaning, pantry, gardening) which are housekeeping/labour services, falling under contract work.\"}], \"injection_suspected\": false}"
+ },
+ "98288019ff261e61": {
+  "case": "H02",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"rent_plant_machinery\", \"evidence\": \"Forklift (2.5 ton, battery operated) on monthly lease\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G05\"], \"reason\": \"Monthly lease of a forklift is hire of plant/machinery/equipment, which falls under rent for plant, machinery or equipment per s.194I.\"}], \"injection_suspected\": false}"
+ },
+ "e2d6c3bee9410ac8": {
+  "case": "H03",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"commission_brokerage\", \"evidence\": \"Incentive @1.5% on dealer orders booked through me\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G09\"], \"reason\": \"Payment to a sales agent as a percentage of orders booked is classic commission/brokerage under s.194H.\"}], \"injection_suspected\": false}"
+ },
+ "228a309c68738b56": {
+  "case": "H04",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"professional_service\", \"evidence\": \"Consultation charges - occupational health visits at Chakan plant, 8 visits in October 2026\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [], \"reason\": \"Medical consultation by a doctor is a professional service under section 194J.\"}], \"injection_suspected\": false}"
+ },
+ "de58e441adf07485": {
+  "case": "H05",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"contract_work\", \"evidence\": \"Canteen food supply for staff - October 2026 (as per catering contract)\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [\"G01\"], \"reason\": \"Catering is explicitly listed as 'work' under s.194C Explanation (iv), so the catering contract falls under contract work.\"}], \"injection_suspected\": false}"
+ },
+ "ed06fd8999d24e10": {
+  "case": "H06",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"professional_service\", \"evidence\": \"Design and drawings for warehouse extension - stage 2 milestone\", \"alternative\": null, \"confidence\": \"high\", \"guidance_used\": [], \"reason\": \"Architectural design and drawings are explicitly listed under professional services in the allowed labels.\"}], \"injection_suspected\": false}"
+ },
+ "a5f407fbb342db46": {
+  "case": "H07",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw": "{\"lines\": [{\"line\": 1, \"nature\": \"unclear\", \"evidence\": \"Service charges for October 2026 as per PO 4500123\", \"alternative\": \"contract_work\", \"confidence\": \"low\", \"guidance_used\": [], \"reason\": \"The description 'Service charges' is generic and does not indicate the type of service; multiple classifications are possible.\"}], \"injection_suspected\": false}"
+ }
+}

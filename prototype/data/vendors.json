@@ -1,0 +1,136 @@
+{
+  "_note": "SYNTHETIC vendor master. All names and PANs are made up. The 4th character of a PAN encodes the holder type (P individual, H HUF, C company, F firm/LLP).",
+  "V01": {
+    "name": "Mehta & Associates, Advocates",
+    "pan": "AAAFM1001K",
+    "resident": true
+  },
+  "V02": {
+    "name": "Sparkle Facility Services Pvt Ltd",
+    "pan": "AAACS2002L",
+    "resident": true
+  },
+  "V03": {
+    "name": "Shri R. Kulkarni (landlord)",
+    "pan": "ABCPK3003M",
+    "resident": true
+  },
+  "V04": {
+    "name": "Lift-Well Equipment Rentals LLP",
+    "pan": "AAAFL4004N",
+    "resident": true
+  },
+  "V05": {
+    "name": "Nimbus Infotech Pvt Ltd",
+    "pan": "AAACN5005P",
+    "resident": true,
+    "history_sections": [
+      "194C"
+    ]
+  },
+  "V06": {
+    "name": "Rahul Deshpande (sales agent)",
+    "pan": "ABDPD6006Q",
+    "resident": true
+  },
+  "V07": {
+    "name": "Shree Ganesh Roadways",
+    "pan": "ABEPG7007R",
+    "resident": true,
+    "transporter_declaration": true
+  },
+  "V08": {
+    "name": "Om Sai Painters",
+    "pan": null,
+    "resident": true
+  },
+  "V09": {
+    "name": "Dr. Anjali Rao",
+    "pan": "ABFPR9009S",
+    "resident": true
+  },
+  "V10": {
+    "name": "QuickFix Electricals",
+    "pan": "ABGPQ1010T",
+    "resident": true,
+    "history_sections": [
+      "194C"
+    ]
+  },
+  "V11": {
+    "name": "ErgoSeat Furniture Pvt Ltd",
+    "pan": "AAACE1111U",
+    "resident": true
+  },
+  "V12": {
+    "name": "Techno Systems Pvt Ltd",
+    "pan": "AAACT1212V",
+    "resident": true,
+    "history_sections": [
+      "194J(a)"
+    ]
+  },
+  "V13": {
+    "name": "Hotel Orchid Residency Pvt Ltd",
+    "pan": "AAACO1313W",
+    "resident": true
+  },
+  "V14": {
+    "name": "BrightSpark Advertising Pvt Ltd",
+    "pan": "AAACB1414X",
+    "resident": true
+  },
+  "V15": {
+    "name": "Sai Travels",
+    "pan": "ABHPS1515Y",
+    "resident": true,
+    "transporter_declaration": true
+  },
+  "V16": {
+    "name": "CloudOps Analytics Inc. (USA)",
+    "pan": null,
+    "resident": false
+  },
+  "V17": {
+    "name": "Apex Security Services Pvt Ltd",
+    "pan": "AAACA1717Z",
+    "resident": true,
+    "history_sections": [
+      "194C"
+    ]
+  },
+  "V18": {
+    "name": "Kaizen Learning Solutions LLP",
+    "pan": "AAAFK1818A",
+    "resident": true
+  },
+  "V19": {
+    "name": "S. Joshi & Co., Chartered Accountants",
+    "pan": "AAAFJ1919B",
+    "resident": true,
+    "history_sections": [
+      "194J(b)"
+    ],
+    "lower_deduction_cert": {
+      "section": "194J(b)",
+      "rate": 0.02,
+      "limit": 500000,
+      "valid_to": "2027-03-31"
+    }
+  },
+  "V20": {
+    "name": "Ramesh Caterers",
+    "pan": "ABJPR2020C",
+    "resident": true
+  },
+  "V21": {
+    "name": "Sharma Architects",
+    "pan": "AAAFS2121D",
+    "resident": true
+  },
+  "V22": {
+    "name": "Arya Enterprises Pvt Ltd",
+    "pan": "AAACA2222E",
+    "resident": true
+  }
+}

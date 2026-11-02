@@ -1,0 +1,6 @@
+{
+  "_note": "SYNTHETIC year-to-date payments (tax year 2026-27) per vendor and section, before the invoices in the test set. 'tds_started' says whether tax has already been deducted for that vendor/section this year. 'cert_used' is how much of a lower-deduction certificate limit is already consumed.",
+  "V10": {"194C": {"paid": 82000, "tds_started": false}},
+  "V12": {"194J(a)": {"paid": 40000, "tds_started": false}},
+  "V19": {"194J(b)": {"paid": 100000, "tds_started": true, "cert_used": 100000}}
+}

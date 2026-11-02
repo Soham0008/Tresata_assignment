@@ -1,0 +1,86 @@
+[
+  {
+    "id": "G01",
+    "title": "Meaning of 'work' for contract payments",
+    "source": "Income-tax Act 1961, s.194C, Explanation (iv)",
+    "text": "'Work' includes advertising; broadcasting and telecasting including production of programmes; carriage of goods or passengers by any mode of transport other than railways; catering; and manufacturing or supplying a product to the customer's specification using material bought from that customer. Labour contracts, repairs, housekeeping, security and similar service contracts are treated as work. A plain sale of goods is not work.",
+    "keywords": "contract contractor work labour advertising broadcasting carriage passengers transport catering manufacturing repair housekeeping security manpower painting electrical cab"
+  },
+  {
+    "id": "G02",
+    "title": "Small transporters: no deduction with declaration",
+    "source": "Income-tax Act 1961, s.194C(6)",
+    "text": "No tax is deducted on payments to a contractor in the business of plying, hiring or leasing goods carriages, if the contractor owns ten or fewer goods carriages at any time in the year and gives a declaration to that effect along with PAN. This covers goods carriages only, not passenger vehicles.",
+    "keywords": "transporter freight goods carriage truck lorry LR declaration ten"
+  },
+  {
+    "id": "G03",
+    "title": "Meaning of 'professional services'",
+    "source": "Income-tax Act 1961, s.194J, Explanation (a)",
+    "text": "Professional services means services rendered in the course of carrying on a legal, medical, engineering or architectural profession, the profession of accountancy, technical consultancy, interior decoration or advertising, or any other profession notified under s.44AA (for example company secretary, film artist, information technology).",
+    "keywords": "professional fees legal advocate lawyer medical doctor engineering architect accountancy chartered accountant audit consultancy interior decoration"
+  },
+  {
+    "id": "G04",
+    "title": "Meaning of 'fees for technical services'",
+    "source": "Income-tax Act 1961, Explanation 2 to s.9(1)(vii), applied by s.194J",
+    "text": "Fees for technical services means consideration for rendering managerial, technical or consultancy services, including the services of technical or other personnel. It excludes consideration for a construction, assembly or mining project and amounts taxable as salary.",
+    "keywords": "technical services managerial consultancy support configuration implementation migration engineer software maintenance helpdesk"
+  },
+  {
+    "id": "G05",
+    "title": "Meaning of 'rent'",
+    "source": "Income-tax Act 1961, s.194I, Explanation (i)",
+    "text": "Rent means any payment, by whatever name called, under any lease, sub-lease, tenancy or other agreement or arrangement for the use of land, building (including factory building), land appurtenant to a building, machinery, plant, equipment, furniture or fittings. Rate is 2% for plant, machinery or equipment and 10% for land, building, furniture or fittings.",
+    "keywords": "rent lease tenancy premises office building land hire machinery plant equipment crane furniture"
+  },
+  {
+    "id": "G06",
+    "title": "Hotel rooms taken on a regular basis",
+    "source": "CBDT Circular No. 5/2002",
+    "text": "Where a company takes hotel rooms on a regular basis (for example under a rate contract or by reserving rooms for a period), the payment is treated as rent and falls under s.194I. Casual bookings by individual guests are not covered.",
+    "keywords": "hotel accommodation rooms reserved corporate agreement guest house stay"
+  },
+  {
+    "id": "G07",
+    "title": "Advertising agencies",
+    "source": "CBDT Circular No. 715 (1995)",
+    "text": "Payments made by a client to an advertising agency for advertising, including release of advertisements in media, fall under s.194C. Payments made by the agency to models, artists or photographers are professional fees under s.194J.",
+    "keywords": "advertising agency campaign media release print newspaper television creative model artist photographer"
+  },
+  {
+    "id": "G08",
+    "title": "GST shown separately is not part of the base",
+    "source": "CBDT Circular No. 23/2017",
+    "text": "Where GST is shown separately in the invoice, tax is deducted on the amount excluding GST.",
+    "keywords": "GST CGST SGST IGST tax invoice separately base"
+  },
+  {
+    "id": "G09",
+    "title": "Meaning of 'commission or brokerage'",
+    "source": "Income-tax Act 1961, s.194H, Explanation (i)",
+    "text": "Commission or brokerage includes any payment received by a person acting on behalf of another for services rendered (other than professional services) or for services in the course of buying or selling goods, or in any transaction relating to an asset, valuable article or thing (other than securities).",
+    "keywords": "commission brokerage agent agency sales incentive broker"
+  },
+  {
+    "id": "G10",
+    "title": "Purchase of goods",
+    "source": "Practitioner note (my summary)",
+    "text": "A contract for the sale of goods is not a works contract, so 194C does not apply to a plain purchase. Section 194Q can apply to purchases above Rs 50 lakh by buyers with turnover above Rs 10 crore, but that is outside this prototype. If an invoice mixes goods and services, each line must be looked at separately.",
+    "keywords": "supply purchase goods units chairs laptops material items quantity model"
+  },
+  {
+    "id": "G11",
+    "title": "Software maintenance and IT support",
+    "source": "Practitioner note (my summary) - no single binding circular",
+    "text": "Annual maintenance of software, bug fixes and remote helpdesk support are usually treated as fees for technical services under s.194J, but some deductors and assessing officers have treated them as contract work under s.194C. Because the section changes the threshold and the return entry, this should be confirmed by the tax team and then applied the same way for the whole year.",
+    "keywords": "software AMC annual maintenance ERP support helpdesk bug fixes updates IT"
+  },
+  {
+    "id": "G12",
+    "title": "Training and workshops",
+    "source": "Practitioner note (my summary)",
+    "text": "Fees to an external trainer or training firm are often treated as fees for technical or consultancy services (194J at 2%), and sometimes as professional fees (194J at 10%) when the trainer is a practising professional delivering in that capacity. This is a judgement call and should be confirmed.",
+    "keywords": "training workshop trainer seminar session course faculty"
+  }
+]
