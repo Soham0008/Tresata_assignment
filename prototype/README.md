@@ -102,6 +102,6 @@ Full tables: `results/oracle.md`, `results/keywords.md`, `results/llm.md`. Raw m
 **Known weaknesses of the prototype itself**
 - Retrieval has no stemming: "Architects" does not match "architect", "consultation" does not match "consultancy" (H04, H06 get weaker guidance notes).
 - The evidence check is exact-substring. A model that paraphrases slightly gets sent to review even when it is right (safe, but adds review load).
-- Vendor name and amounts are sent to the model. In a real deployment the reader only needs line descriptions.
+- Vendor name and amounts are sent to the model. In a real deployment reader only needs line descriptions.
 - Rates are as amended by the Finance Act 2025. New-Act (Income-tax Act 2025) references and any Finance Act 2026 change are marked "verify" in `rules.json`.
 - No OCR. Assumes invoice text is already available (ERP / e-invoice).
