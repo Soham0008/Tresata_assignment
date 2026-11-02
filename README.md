@@ -28,8 +28,6 @@ All invoices, vendors and PANs are synthetic. Jurisdiction: India, resident vend
 | Path | What it is |
 |---|---|
 | `Soham_Patil_2023AM11045_Tresata_Brief.pdf` | The submission PDF |
-| `brief/brief.html` | Source text of the brief and appendix |
-| `brief/build_pdf.js` | Turns `brief.html` into the PDF |
 | `prototype/README.md` | How to run the prototype, test list, results |
 | `prototype/run_eval.py` | Runs all test invoices and scores them |
 | `prototype/tds/reader.py` | The only AI step (prompt and model call) |
